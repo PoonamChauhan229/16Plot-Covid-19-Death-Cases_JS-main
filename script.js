@@ -2,7 +2,7 @@
 
 updateMap()
 async function updateMap(){
-    let data=await fetch("/data.json")
+    let data=await fetch("https://github.com/PoonamChauhan229/16Plot-Covid-19-Death-Cases_JS-main/blob/main/data.json")
     let res=await data.json()
     console.log(res.data)
     console.log(res.data)
